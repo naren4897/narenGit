@@ -1,0 +1,124 @@
+    1  cd
+    2  minikube start
+    3  kubectl get po -A
+    4  minikube start
+    5  curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+    6  sudo install minikube-linux-amd64 /usr/local/bin/minikube
+    7  minikube start
+    8  kubectl get po -A
+    9  kubectl get po -A
+   10  kubectl get po -A
+   11  kubectl get po -A
+   12  kubectl get po -A
+   13  ls
+   14  docker ps
+   15  docker ps -a
+   16  ls
+   17  docker ps -a
+   18  docker ps -a
+   19  kubectl get pods
+   20  minikube kubectl -- get po -A
+   21  kubectl get pods
+   22  alias kubectl="minikube kubectl --"
+   23  kubectl get pods
+   24  minikube dashboard
+   25  kubectl get pods
+   26  kubectl get nodes
+   27  kubectl
+   28  minikube
+   29  minikube start--vm-driver=docker
+   30  minikube start--vm-driver=hyperkit
+   31  minikube start --vm-driver=hyperkit
+   32  minikube start --driver=docker
+   33  kubectl get nodes
+   34  minikube status
+   35  kubectl version
+   36  kubectl get po -A
+   37  minikube kubectl -- get po -A
+   38  kubectl get deployment
+   39  kubectl logs etcd-minikube
+   40  kubectl get nodes
+   41  kubectl get pod
+   42  kubectl get pods
+   43  kubectl get services
+   44  kubectl create -h
+   45  kubectl create deployment nginx-depl --image=nginx
+   46  kubectl get deployment
+   47  kubectl get pod
+   48  kubectl get replicaset
+   49  kubectl edit deployment nginx-depl
+   50  kubectl edit deployment nginx-depl
+   51  kubectl edit deployment nginx-depl
+   52  kubectl get deployment
+   53  kubectl get pod
+   54  kubectl get pod
+   55  kubectl get replicaset
+   56  kubctl get logs nginx-depl-8475696677-k7s87
+   57  kubectl get logs nginx-depl-8475696677-k7s87
+   58  kubectl logs nginx-depl-8475696677-k7s87
+   59  kubectl create deployment mongo-depl --image=mongo
+   60  kubectl get pods
+   61  kubectl logs mongo-depl-5ccf565747-l6ts5
+   62  kubectl describe pod mongo-depl-5ccf565747-l6ts5
+   63  docker ps
+   64  docker ps-a
+   65  docker ps -a
+   66  kubectl logs mongo-depl-5ccf565747-l6ts5
+   67  docker ps -a
+   68  kubectl get pods
+   69  kubectl exec -it mongo-depl-5ccf565747-l6ts5 -- bin/bash
+   70  kubectl get deployment
+   71  kubectl get pod
+   72  kubectl delete deployment mongo-depl
+   73  kubectl get pod
+   74  kubectl get deployment
+   75  kubectl get replicaset
+   76  kubectl delete deployment nginx-depl
+   77  kubectl get replicaset
+   78  kubectl apply -f nginx-deployment.yml
+   79  vim nginx-deployment.yml
+   80  kubectl apply -f nginx-deployment.yml
+   81  vim nginx-deployment.yml
+   82  kubectl apply -f nginx-deployment.yml
+   83  vim nginx-deployment.yml
+   84  kubectl apply -f nginx-deployment.yml
+   85  vim nginx-deployment.yml
+   86  kubectl apply -f nginx-deployment.yml
+   87  vim nginx-deployment.yml
+   88  vim nginx-deployment.yml
+   89  kubectl apply -f nginx-deployment.yml
+   90  vim nginx-deployment.yml
+   91  kubectl get replicaset
+   92  kubectl get deployment
+   93  vim nginx-deployment.yml
+   94  kubectl get pods
+   95  kubectl apply -f nginx-deployment.yml
+   96  kubectl get pods
+   97  ls
+   98  pwd
+   99  ls
+  100  mkdir k8s objects
+  101  ls
+  102  rm objects/
+  103  rm -f  objects/
+  104  rm -d  objects/
+  105  ls
+  106  mv nginx-deployment.yml k8s/
+  107  ls
+  108  cd k8s/
+  109  ls 
+  110  git 
+  111  yum install git
+  112  sudo yum install git
+  113  ls
+  114  git init 
+  115  git status
+  116  git add .
+  117  git commit -m "first deployment file'
+git commit -m "first deployment file"
+  118  git commit -m "first deployment file"
+  119  git status
+  120  git branch -m master main
+  121  git status
+  122  history
+  123  history > history.txt
