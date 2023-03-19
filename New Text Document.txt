@@ -1,0 +1,37 @@
+admission controller in kubernetes
+similar to webhooks
+
+
+service match
+
+mutating webhook
+
+
+----------------------------
+debugging pods
+
+log to concole		:kubectl logs [pod name]
+get interactive terminal:kubectl exec -it [pod name] -- bin/bash
+get info about pod	:kubectl describe pod [pod name]
+
+------------------------
+use configuration file for CRUD[create.read.update.delete]
+
+apply a configuration file	:kubectl apply -f [file name]
+delete with configuration file	:kubectl delete -f [file name]
+
+---------------------------------------
+k8s YAML configuration file 
+each configuration file has 3 parts
+1 metadata
+2 spec
+3 status[automatically genetrates by k8s to maintain desired=actual for self healing]
+attributes of "spec" are specific to the "kind"
+
+-------------------------------------------------------
+layers of abstraction
+
+Deployment
+Replicaset
+Pod
+Container
